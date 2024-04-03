@@ -16,7 +16,6 @@ homeelectronics.AddDevice(kettle);
 while (true)
 {
     Console.Clear();
-    Console.WriteLine(homeelectronics.ToString());
     Console.WriteLine("Pick a task:\n1. Turn on device.\n2. Turn off device.\n3. Sum of electricity usage.\n4. Sort by electricity.\n5. Find device.\n6. Exit.");
     int choice;
     choice = int.Parse(Console.ReadLine());
